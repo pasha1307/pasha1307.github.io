@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <link rel="stylesheet" href="sl_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Slideshow</h1>
+        <!--<div class="slides animated" id="wrap_init">-->
+
+        <!--</div>-->
+        <img src="./image1.jpg" alt="" id="img_init" class="img_init"/>
+        <div class="slides" id="w_slides">
+
+        </div>
+        <div class="controls">
+            <button class="btn btn_prev animated_btn" id="prev">Prev</button>
+            <button class="btn" id="btn_stop">Stop</button>
+            <button class="btn btn_next animated_btn" id="next">Next</button>
+        </div>
+    </div>
+<script src="sl_script.js"></script>
+</body>
+</html>
